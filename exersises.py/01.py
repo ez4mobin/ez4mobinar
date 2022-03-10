@@ -1,4 +1,5 @@
 a = str(input("input:"))
 b = str(input("input:"))
 c = str(input("input:"))
-print("result:"a,b,c,sep="-")
+print("result:",end=" ")
+print(a,b,c,sep="-")
